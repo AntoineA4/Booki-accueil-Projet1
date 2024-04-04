@@ -58,6 +58,12 @@ a {
     color: var(--main-bg-color)
 }
 
+/****** Header *******/
+.menu {
+    list-style-type: none;
+    font-family: 'Raleway', sans-serif;
+}
+
 /****** Hebergements And Populaires ***********/
 .hebergements-and-populaires {
     display: flex;
