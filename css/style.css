@@ -59,10 +59,29 @@ a {
 }
 
 /****** Header *******/
-.menu {
-    list-style-type: none;
-    font-family: 'Raleway', sans-serif;
+
+.header {
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
 }
+
+.menu {
+    display:flex;
+    justify-content:space-between;
+    list-style-type: none;
+
+}
+
+.menu li {
+    padding-left: 60px;
+    
+}
+
+.logo {
+    width: 5%;
+}
+
 
 /****** Hebergements And Populaires ***********/
 .hebergements-and-populaires {
