@@ -78,6 +78,10 @@ a {
     
 }
 
+.menu li:hover {
+    color:#0065FC
+}
+
 .logo {
     width: 5%;
 }
