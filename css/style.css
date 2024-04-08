@@ -93,27 +93,36 @@ a {
 .cta{
     display:flex;
     align-items: flex-start;
-    margin: 30px;
+    margin-bottom: 30px;
+    margin-top: 40px;
+
 }
 .fa-location-dot {
     background-color: #D9D9D9;
-    background-size: 0.5em;
     border-radius: 10px 0px 0px 10px;
-    padding: 12px;
+    padding: 18px;
 
 }
 .cta-label {
     background-color: #0065FC;
-    border-radius: 0px 10px 10px 0px;
-    background-size: 0.5em;
-    padding: 12px;
+    font-weight: bold;
     color: rgb(255, 255, 255);
+    border-radius: 0px 10px 10px 0px;
+    padding: 18px;
 }
 
 .input-cta {
     border: 1px solid  #D9D9D9;
-    length: 70px;
-    height: 35px;
+    width: 190px;
+    height: 48px;
+    margin-right: -5px;
+    margin-left: -2px;
+}
+.desktop { 
+    display: inline-block;
+}
+.mobile {
+    display: none;
 }
 
 /****** Hebergements And Populaires ***********/
@@ -222,3 +231,11 @@ a {
 /* Small devices (phones, less than 768px) */
 @media (max-width: 767.98px) {
     /* ... */
+
+    .desktop {
+        display: none; 
+      }
+      .mobile {
+        display: inline-block; 
+      }
+    }
