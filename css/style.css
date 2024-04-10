@@ -99,7 +99,7 @@ a {
     
 }
 
-/****** CTA SECTION *******/
+/****** CTA SECTION ********/
 .cta{
     display:flex;
     align-items: flex-start;
@@ -140,6 +140,34 @@ a {
     display: none;
 }
 
+/****** Filter section ******/
+
+.filtres {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.économique-btn {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1.5em;
+}
+.familial-btn {
+    display: flex;
+    align-items: center;
+    padding: 1.5em;  
+}
+.romantique-btn {
+    display: flex;
+    align-items: center;
+    padding: 1.5em;
+}
+.pépites-btn {
+    display: flex;
+    align-items: center;
+    padding: 1.5em;
+}
 /****** Hebergements And Populaires ***********/
 .hebergements-and-populaires {
     display: flex;
