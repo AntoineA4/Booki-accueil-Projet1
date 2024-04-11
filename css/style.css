@@ -104,7 +104,7 @@ a {
     align-items: flex-start;
     margin-bottom: 30px;
     margin-top: 40px;
-    font-size: 18px;
+    font-size: 15px;
 
 }
 .fa-location-dot {
@@ -119,8 +119,9 @@ a {
     font-weight: bold;
     color: rgb(255, 255, 255);
     border-radius: 0px 10px 10px 0px;
-    padding: 15px;
-    font-size: 13px;
+    padding: 14px;
+    height: 10px;
+   
 }
 
 .input-cta {
@@ -129,7 +130,7 @@ a {
     height: 41px;
     margin-right: -7px;
     margin-left: -4px;
-    font-size: 14px;
+    
     font-weight: bold;
 }
 .desktop { 
@@ -146,73 +147,60 @@ a {
     justify-content: flex-start;
     align-items: center;
 }
+.filtre-texte {
+    font-size: 15px;
+
+}
 .économique-btn {
     display: flex;
     align-items: center;
-    justify-content: space-around;
-    padding-right:0.9em;
-    padding-top: 0.01em;
-    padding-bottom: 0.01em;
+    justify-content: center;
+    height: 40px;
+    width: 160px;
     border: 2px solid  #D9D9D9;
     border-radius: 30px 30px 30px 30px;
     margin: 10px;
     font-weight: bold;
 }
-.fa-money-bill-wave {
-    padding-right: 0.5em;
-    padding-left: 0.8em;
-    font-size: 20px;
-}
 .familial-btn {
     display: flex;
     align-items: center;
-    justify-content: space-around;
-    padding-right:0.9em;
-    padding-top: 0.01em;
-    padding-bottom: 0.01em;
+    justify-content: center;
+    height: 40px;
+    width: 120px;
     border: 2px solid  #D9D9D9;
     border-radius: 30px 30px 30px 30px; 
     margin: 10px;
     font-weight: bold;
 }
-.fa-person {
-    padding-right: 0.5em;
-    padding-left: 0.8em;
-    font-size: 20px;
-}
 .romantique-btn {
     display: flex;
     align-items: center;
-    justify-content: space-around;
-    padding-right:0.9em;
-    padding-top: 0.01em;
-    padding-bottom: 0.01em;
+    justify-content: center;
+    height: 40px;
+    width: 150px;
     border: 2px solid  #D9D9D9;
     border-radius: 30px 30px 30px 30px;
     margin: 10px;
     font-weight: bold;
-}
-.fa-heart {
-    padding-right: 0.5em;
-    padding-left: 0.8em;
-    font-size: 20px;
 }
 .pépites-btn {
     display: flex;
     align-items: center;
-    justify-content: space-around;
-    padding-right:0.9em;
-    padding-top: 0.01em;
-    padding-bottom: 0.01em;
+    justify-content: center;
+    height: 40px;
+    width: 150px;
     border: 2px solid  #D9D9D9;
     border-radius: 30px 30px 30px 30px;
     margin: 10px;
     font-weight: bold;
 }
-.fa-fire {
+.fa-money-bill-wave, .fa-person, .fa-heart, .fa-fire{
     padding-right: 0.5em;
-    padding-left: 0.8em;
     font-size: 20px;
+}
+.économique-btn:hover, .familial-btn:hover, .romantique-btn:hover, .pépites-btn:hover {
+    background-color: #DEEBFF;
 }
 
 .info-line {
