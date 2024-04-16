@@ -279,7 +279,12 @@ a {
 .populaires-cards .card-rating {
     margin-bottom: 5px;
 }
+/****** Activités ******/
 
+.activités-cards {
+    display: flex;
+    justify-content: column;
+}
 
 
 
