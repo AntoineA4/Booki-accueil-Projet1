@@ -280,7 +280,25 @@ a {
     margin-bottom: 5px;
 }
 
+/****** FOOTER ******/
 
+.footer {
+    background-color: #F2F2F2;
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 5%;
+}
+.lien-footer {
+    list-style-type: none;
+    padding: 0;
+}
+.lien-footer li {
+    padding-bottom: 6%;
+}
+.column-footer {
+    padding-left: 3%;
+    padding-right: 12%;
+}
 
 
 /* Le code ci-dessous correspond à la version responsive uniquement */
