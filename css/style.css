@@ -61,7 +61,7 @@ a {
 
 /****** Header *******/
 
-.header {
+header {
     display:flex;
     justify-content: space-between;
     align-items: center;
@@ -477,11 +477,6 @@ a {
         padding-left: 2%;
         padding-right: 12%;
     }
-
-
-
-    
-
     
 }
 
@@ -495,4 +490,44 @@ a {
       .mobile {
         display: inline-block; 
       }
+
+      body {
+        display: flex;
+        flex-direction: column;
+        justify-content: center; /* Centrer le contenu horizontalement */
+        align-items: center; /* Centrer le contenu verticalement */
+        margin: 0; /* Supprimer les marges par défaut */
+        width: 100%;
+        
+    }
+    
+    .main-container {
+        width: 100%; /* Utiliser toute la largeur de l'écran */
+        padding: auto;
+        box-sizing: border-box;
+        margin: 0;
+    }
+
+      .logo {
+        width: 40%;
+      }
+      header {
+        display:flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: 0;
+    }
+
+    .filtres-section {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+    }
+    .filtres {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
     }
