@@ -157,6 +157,9 @@ header {
 .filtre-texte {
     font-size: 15px;
 }
+.filtre-title {
+    font-size: 17px;
+}
 .économique-btn {
     display: flex;
     align-items: center;
@@ -567,14 +570,32 @@ header {
     .filtres-section {
         display: flex;
         flex-direction: column;
-        justify-content: flex-start;
+        justify-content: center;
         align-items: flex-start;
+        
+    }
+    .filtre-title {
         margin-left: 5%;
     }
     .filtres {
         display: flex;
-        flex-direction: row;
         flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .économique-btn, .familial-btn, .romantique-btn, .pépites-btn {
+        width: 160px;
+        justify-content: flex-start;
+        padding-left: 3%;
+        margin-right: 0;
+    }
+    .romantique-btn {
+        margin-left: 0%;
+    }
+
+    .fa-money-bill-wave, .fa-person, .fa-heart, .fa-fire{
+        padding-right: 0.8em;
+        padding-left: 0.5em;
     }
 
     .info-line {
