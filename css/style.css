@@ -17,6 +17,7 @@ body {
     display: flex;
     justify-content: center;
     padding-top: 0;
+    margin-top: 0;
 }
 
 .main-container {
@@ -74,6 +75,7 @@ header {
     display:flex;
     justify-content:space-between;
     list-style-type: none;
+    margin-top: 0;
 
 }
 
@@ -83,6 +85,7 @@ header {
     padding-bottom: 25px;
     padding-top: 15px;
     border-top: 2px solid #FFFFFF;
+    margin-top: 0;
 }
 
 .lien-nav li:hover {
@@ -505,7 +508,7 @@ header {
         flex-direction: column;
         justify-content: center; 
         align-items: center; 
-        margin: 0; 
+        margin: 10px 0 0 0; 
         width: 100%;
         
     }
@@ -533,7 +536,7 @@ header {
     }
 
     .menu-header {
-        margin-top: 0;
+        margin-top: 20px;
         padding-top: 0;
         width:100%;
     }
