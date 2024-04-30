@@ -16,6 +16,7 @@
 body {
     display: flex;
     justify-content: center;
+    padding-top: 0;
 }
 
 .main-container {
@@ -66,6 +67,7 @@ header {
     justify-content: space-between;
     align-items: center;
     margin-bottom: -15px;
+    margin-top: 0;
 }
 
 .lien-nav {
@@ -113,7 +115,9 @@ header {
     border-radius: 10px 0px 0px 10px;
     padding: 15px;
     font-size: 15px;
-
+}
+.icon-cta i {
+    color: #000000;
 }
 .cta-button {
     border: 3px solid #0065FC;
@@ -142,6 +146,9 @@ header {
 .mobile {
     display: none;
 }
+.mobile i {
+    color:#FFFFFF;
+}
 
 /****** Filter section ******/
 
@@ -153,6 +160,7 @@ header {
 .filtres {
     display: flex;
 }
+
 .filtre-texte {
     font-size: 15px;
 }
@@ -206,6 +214,7 @@ header {
 .fa-money-bill-wave, .fa-person, .fa-heart, .fa-fire{
     padding-right: 0.5em;
     font-size: 20px;
+    color: #0065FC;
 }
 .économique-btn:hover, .familial-btn:hover, .romantique-btn:hover, .pépites-btn:hover {
     background-color: #DEEBFF;
@@ -226,6 +235,7 @@ header {
     width: 0.5em;
     height: 0.5em;
     border-radius: 50%;
+    color: #0065FC;
 }
 /****** Hebergements And Populaires ***********/
 .hebergements-and-populaires {
@@ -388,19 +398,24 @@ header {
 .footer {
     background-color: #F2F2F2;
     display: flex;
-    justify-content: flex-start;
+    justify-content: space-between;
     margin-top: 5%;
+    padding: 30px;
 }
 .lien-footer {
     list-style-type: none;
     padding: 0;
 }
 .lien-footer li {
-    padding-bottom: 9%;
+    margin-bottom: 15px;
 }
 .column-footer {
-    padding-left: 3%;
-    padding-right: 14%;
+    width: 30%;
+}
+.column-footer h3 {
+    margin: 0;
+    margin-bottom: 20px;
+    padding: 0;
 }
 
 
@@ -464,17 +479,13 @@ header {
     }
 
     .activités-cards img {
-        height: 190px;
+        height: 175px;
     }
 
     .card2 h3 {
         padding-left: 8%;
     }
 
-    .column-footer {
-        padding-left: 2%;
-        padding-right: 12%;
-    }
     
 }
 
@@ -575,12 +586,13 @@ header {
         display: flex;
         flex-wrap: wrap;
         justify-content: center;
+        width: 100%;
     }
 
     .économique-btn, .familial-btn, .romantique-btn, .pépites-btn {
-        width: 160px;
+        width: 45%;
         justify-content: flex-start;
-        padding-left: 3%;
+        
         margin-right: 0;
     }
     .romantique-btn {
@@ -663,7 +675,17 @@ header {
 
     .footer {
         flex-direction: column;
-        padding-left: 7%;
+    }
+    .column-footer {
+        width: 100%;
+    }
+
+    .column-footer {
+        margin-top: 30px;
+    }
+
+    .column-footer:first-child {
+        margin-top: 0;
     }
 
     }
