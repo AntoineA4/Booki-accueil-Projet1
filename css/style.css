@@ -572,6 +572,12 @@ header {
        margin-bottom: 2%;
     }
 
+    .cta-button {
+        border-radius: 15px;
+        margin-left: -15px;
+        filter: drop-shadow(1px 4px 2px rgba(0, 0, 0, 0.3));
+    }
+
     .filtres-section {
         display: flex;
         flex-direction: column;
